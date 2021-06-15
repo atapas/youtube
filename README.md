@@ -1,6 +1,8 @@
 # youtube
 The purpose of this repository is to post all the source code used in my YouTube videos at the same place. I hope you find it useful.
 
+> YouTube Channel Link: [https://www.youtube.com/c/TapasAdhikary](https://www.youtube.com/c/TapasAdhikary)
+
 # 🔥 Content
 - Code With Tapas
   - JavaScript Split() Method
