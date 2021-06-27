@@ -8,6 +8,9 @@ The purpose of this repository is to post all the source code used in my YouTube
   - JavaScript Split() Method
     - Code: [JavaScript Split - How to Split a String into an Array and More](https://github.com/atapas/youtube/tree/main/code-with-tapas/js-split/)
     - YouTube Link: https://youtu.be/xbHFdstSpvc
+- Demystifying Git for Beginners
+    - YouTube Link: https://youtu.be/vWtu4mzUgQo
+ 
 
 # 👋 Contribute
 Let's grow together with knowldge. You can request a new video tutorial in the areas of,
