@@ -5,15 +5,10 @@ The purpose of this repository is to post all the source code used in my YouTube
 
 # 🔥 Content
 - Code With Tapas
-  - JavaScript Split() Method
-    - Code: [JavaScript Split - How to Split a String into an Array and More](https://github.com/atapas/youtube/tree/main/code-with-tapas/js-split/)
-    - YouTube Link: https://youtu.be/xbHFdstSpvc
-- Demystifying Git for Beginners
-    - YouTube Link: https://youtu.be/vWtu4mzUgQo
-- Install Node.js on Ubuntu
-    - YouTube Link: https://www.youtube.com/watch?v=R_F0gYb8NgI
+  - [JavaScript Split() Method](https://github.com/atapas/youtube/tree/main/code-with-tapas/js-split)
+  - [Demystifying Git for Beginners](https://github.com/atapas/youtube/tree/main/code-with-tapas/git-for-beginners)
+  - [Install Node.js on Ubuntu](https://github.com/atapas/youtube/tree/main/code-with-tapas/install-nodejs-ubuntu)
  
-
 # 👋 Contribute
 Let's grow together with knowldge. You can request a new video tutorial in the areas of,
 
