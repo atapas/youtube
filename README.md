@@ -4,7 +4,7 @@ The purpose of this repository is to post all the source code used in my YouTube
 > YouTube Channel Link: [https://www.youtube.com/c/TapasAdhikary](https://www.youtube.com/c/TapasAdhikary)
 
 # 🔥 Content
-- Code With Tapas
+- Coding With Tapas
   - [JavaScript Split() Method](https://github.com/atapas/youtube/tree/main/code-with-tapas/js-split)
   - [Demystifying Git for Beginners](https://github.com/atapas/youtube/tree/main/code-with-tapas/git-for-beginners)
   - [Install Node.js on Ubuntu](https://github.com/atapas/youtube/tree/main/code-with-tapas/install-nodejs-ubuntu)
