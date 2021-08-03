@@ -10,7 +10,7 @@ Link: https://www.youtube.com/watch?v=vWtu4mzUgQo
 
 Link: https://blog.greenroots.info/how-not-to-use-git-in-practice-ten-git-usages-you-should-know-to-avoid
 
-## Code
+## Notes
 
-Link: https://github.com/atapas/youtube/tree/main/code-with-tapas/git-for-beginners/src
+Link: https://www.notion.so/atapas/Git-for-beginners-ec947b89292c436a836ee774c445d224
 
