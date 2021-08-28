@@ -21,7 +21,7 @@ A Newsletter Service built with Twitter Revue, Next.js Serverless APIs, and Tail
 [MIT](https://github.com/atapas/next-starter-revue-tailwind/blob/master/LICENSE.md)
 
 ## How to use it
-- Sign up with Twitter Revue.
+- Sign up with [Twitter Revue](https://www.getrevue.co/).
 - Copy the API Key.
 - Create a `.env.local` file with an entry,
  ```bash
