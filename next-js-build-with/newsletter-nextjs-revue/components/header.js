@@ -7,26 +7,19 @@ export default function Header() {
   const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
 
   return (
-    <header className="bg-green-600">
-      <div className="flex flex-wrap items-center justify-between lg:container px-4 py-6 mx-auto md:flex-no-wrap md:px-6">
+    <header className="bg-blue-600">
+      <div className="flex flex-wrap items-center justify-between lg:container px-2 py-4 mx-auto md:flex-no-wrap md:px-6">
         <div className="flex items-center">
-          <Image
-            src="/tailwind-logo.svg"
-            width={40}
-            height={40}
-            priority
-            alt="Tailwind CSS logo"
-          />
 
           <Link href="/">
             <a className="text-lg md:text-xl font-bold ml-3 text-white">
-              Next.js Starter Tailwind
+              Newsletter demo powred by Next.js | Twitter Revue | Tailwindcss
             </a>
           </Link>
         </div>
 
         <button
-          className="flex items-center block px-3 py-2 text-white border border-white rounded md:hidden"
+          className="flex items-center px-3 py-2 text-white border border-white rounded md:hidden"
           onClick={() => setMobileMenuIsOpen(!mobileMenuIsOpen)}
         >
           <svg

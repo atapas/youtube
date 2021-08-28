@@ -22,14 +22,14 @@ export default function AboutPage() {
             React applications.
           </p>
         </section>
-      </div>
 
-      <Image
-        alt="A one-eyed alien holding a broken cable connected between a server and a desktop computer"
-        src="/critter.svg"
-        width={476}
-        height={297.17}
-      />
+        <section>
+          <h2 className="mb-3 text-xl font-bold">What is Revue?</h2>
+          <p>
+            A free Nesletter service now powered by Twitter.
+          </p>
+        </section>
+      </div>
     </div>
   );
 }
