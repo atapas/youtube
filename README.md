@@ -8,13 +8,13 @@ The purpose of this repository is to post all the source code used in my YouTube
 > YouTube Channel Link: [https://www.youtube.com/tapasadhikary](https://www.youtube.com/tapasadhikary)
 
 
-# 🔥 Content
-- Coding With Tapas
-  - [JavaScript Split() Method](https://github.com/atapas/youtube/tree/main/code-with-tapas/js-split)
-  - [Demystifying Git for Beginners](https://github.com/atapas/youtube/tree/main/code-with-tapas/git-for-beginners)
-  - [Install Node.js on Ubuntu](https://github.com/atapas/youtube/tree/main/code-with-tapas/install-nodejs-ubuntu)
-  - [JavaScript Object Immutability](https://github.com/atapas/youtube/tree/main/code-with-tapas/object-immutability)
-  - [JavaScript Object Destructuring](https://github.com/atapas/youtube/tree/main/code-with-tapas/object-destructuring)
+# 🔥 Code
+- [JavaScript Split() Method](https://github.com/atapas/youtube/tree/main/code-with-tapas/js-split)
+- [Demystifying Git for Beginners](https://github.com/atapas/youtube/tree/main/code-with-tapas/git-for-beginners)
+- [Install Node.js on Ubuntu](https://github.com/atapas/youtube/tree/main/code-with-tapas/install-nodejs-ubuntu)
+- [JavaScript Object Immutability](https://github.com/atapas/youtube/tree/main/code-with-tapas/object-immutability)
+- [Build a Newsletter app using Next.js and Revue API](https://github.com/atapas/youtube/tree/main/next-js-build-with/newsletter-nextjs-revue)
+- [JavaScript Object Destructuring](https://github.com/atapas/youtube/tree/main/code-with-tapas/object-destructuring)
 
 You can support my work by giving the repository a ⭐ and/or sponsorong me using the `Sponsor` button at the top 😍.
 
