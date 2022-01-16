@@ -1,7 +1,7 @@
 # youtube
 The purpose of this repository is to post all the source code used in my YouTube videos at the same place. I hope you find it useful.
 
-> YouTube Channel Link: [https://www.youtube.com/c/TapasAdhikary](https://www.youtube.com/c/TapasAdhikary)
+> YouTube Channel Link: [https://www.youtube.com/tapasadhikary](https://www.youtube.com/tapasadhikary)
 
 # 🔥 Content
 - Coding With Tapas
@@ -10,6 +10,11 @@ The purpose of this repository is to post all the source code used in my YouTube
   - [Install Node.js on Ubuntu](https://github.com/atapas/youtube/tree/main/code-with-tapas/install-nodejs-ubuntu)
   - [JavaScript Object Immutability](https://github.com/atapas/youtube/tree/main/code-with-tapas/object-immutability)
   - [JavaScript Object Destructuring](https://github.com/atapas/youtube/tree/main/code-with-tapas/object-destructuring)
+
+You can support my work by giving the repository a ⭐ and/or sponsorong me using the `Sponsor` button at the top 😍.
+
+[![Stargazers repo roster for @atapas/youtube](https://reporoster.com/stars/atapas/youtube)](https://github.com/atapas/youtube/stargazers)  
+  
  
 # 👋 Contribute
 Let's grow together with knowldge. You can request a new video tutorial in the areas of,
