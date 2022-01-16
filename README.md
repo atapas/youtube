@@ -9,6 +9,7 @@ The purpose of this repository is to post all the source code used in my YouTube
   - [Demystifying Git for Beginners](https://github.com/atapas/youtube/tree/main/code-with-tapas/git-for-beginners)
   - [Install Node.js on Ubuntu](https://github.com/atapas/youtube/tree/main/code-with-tapas/install-nodejs-ubuntu)
   - [JavaScript Object Immutability](https://github.com/atapas/youtube/tree/main/code-with-tapas/object-immutability)
+  - [JavaScript Object Destructuring](https://github.com/atapas/youtube/tree/main/code-with-tapas/object-destructuring)
  
 # 👋 Contribute
 Let's grow together with knowldge. You can request a new video tutorial in the areas of,
