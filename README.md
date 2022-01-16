@@ -1,7 +1,12 @@
 # youtube
 The purpose of this repository is to post all the source code used in my YouTube videos at the same place. I hope you find it useful.
 
+<p align=center>
+  <img alt="YouTube Channel Subscribers" height="30px" src="https://img.shields.io/youtube/channel/subscribers/UCaYr5yxgOyk599Mnb3TGh-g?label=Subscribers&style=social">
+</p>
+
 > YouTube Channel Link: [https://www.youtube.com/tapasadhikary](https://www.youtube.com/tapasadhikary)
+
 
 # 🔥 Content
 - Coding With Tapas
