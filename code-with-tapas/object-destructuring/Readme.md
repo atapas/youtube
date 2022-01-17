@@ -1,6 +1,6 @@
 # Object Destructuring
 
-> Video Link: [https://www.youtube.com/watch?v=J8zlaJWn_ig&t=20s](https://www.youtube.com/watch?v=J8zlaJWn_ig&t=20s)
+> Video Link: [https://www.youtube.com/watch?v=J8zlaJWn_ig&t=20s](https://www.youtube.com/watch?v=J8zlaJWn_ig)
 
 Learn all about JavaScript(ES6) Object Destructuring with examples and practical usages. This video tutorial teaches you the concept with simplicity but with a high impact. 
 So grab a ☕ or 🍺 and get started!!!
