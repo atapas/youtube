@@ -1,0 +1,65 @@
+name: 🎥 Video Request
+description: Request a New Video
+title: "[New Video Request]: "
+labels: ["new"]
+assignees: ["atapas"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Video Request Form
+        👋 Hey There,
+
+        You can request a video in the areas of,
+        - Web Development(JavaScript, React, CSS, HTML, many more)
+        - Jamstack
+        - Content Creation/Blogging
+        - Career
+         
+        ## Please provide the answer to the questions below to get started:
+  - type: input
+    id: new-video-name
+    attributes:
+      label: Suggest a Topic Name
+      description: "Please provide new video topic name."
+      placeholder: "How much JavaScript is needed to learn React.js?"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: new-video-description
+    attributes:
+      label: What do you want to Learn?
+      description: "Explain what you want learn in this video. Please provide some pointers."
+      placeholder: |
+        1. What are the important JavaScript concepts for React.js.
+        2. Which array methods should master?
+        3. ES6+ features like template literals, arrow function, etc.
+    validations:
+      required: true
+      
+  - type: input
+    id: new-video-schedule
+    attributes:
+      label: How soon do you need this video tutorial?
+      description: "Give minimum a couple of weeks."
+      placeholder: "At your convenience."
+    validations:
+      required: true
+
+  - type: textarea
+    id: new-video-requester
+    attributes:
+      label: Do you want to see your name, social handle as a requester in the Video Description?
+      description: "If yes, please mention the full name, social handle, etc."
+      placeholder: |
+        - Tapas Adhikary
+        - [twitter.com/tapasadhikary](https://twitter.com/tapasadhikary)
+        - [github.com/atapas](https://github.com/atapas)
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        > Note: Please be polite while raising the request. The creator has all the rights to accept/reject a request. There is no strong commitment made by the creator to publish a requested video within any given time frame. But, will try as much as possible.
