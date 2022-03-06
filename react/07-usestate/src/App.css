@@ -1,0 +1,25 @@
+.colorizer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.colorizer .box {
+  width: 13rem;
+  height: 13rem;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #521d1d;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+.colorizer button {
+  cursor: pointer;
+}
