@@ -1,0 +1,15 @@
+.greeting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+  padding: 1em;
+}
+.greeting .message {
+  font-size: 4em;
+  font-style: italic;
+  background: #ffe400;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
