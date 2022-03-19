@@ -1,0 +1,36 @@
+li {
+  list-style: none;
+}
+
+.find-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.find-user FORM {
+  margin-bottom: 0.5rem;
+}
+
+.find-user .form-group INPUT[type="text"]{
+  margin-left: 0.2rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  width: 20rem;
+}
+.result .github-user .details {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.2rem;
+}
+
+.result .github-user .details IMG {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
