@@ -14,7 +14,7 @@ Find me on,
 ## Quizzes and Tasks
 Please expand the questions below to see the detailed options and tasks to perform.
 
-### R_QUIZ_01
+### 1. R_QUIZ_01
 <details>
 <summary>Which of these statements are "true" ❓</summary>
 <p>
@@ -30,7 +30,7 @@ Keep learning!
   </p>
   </details>
 
-### R_QUIZ_02
+### 2. R_QUIZ_02
 <details>
 
   <summary>
