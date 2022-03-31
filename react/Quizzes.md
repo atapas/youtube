@@ -1,4 +1,4 @@
-Wise men have said, 
+Wise folks have said, 
 
 > "Learning alone is not enough, you need to practice, and practice hard". 
 
