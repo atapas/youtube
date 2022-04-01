@@ -58,8 +58,6 @@ Please submit the following as a comment [to this thread once you are done](http
   - ✅ The GitHub Repo
   - ✅ The URL to access your app
 
-You need to submit it by 🗓️ 3rd April 2022. 
-
 What if you can not complete the tasks? 😟 
 
   - No worries, still submit with whatever you have done. Please feel free to post your questions queries if you are stuck as a comment below. 
