@@ -17,6 +17,9 @@ The purpose of this repository is to post all the source code used in my YouTube
 - [JavaScript Object Destructuring](https://github.com/atapas/youtube/tree/main/code-with-tapas/object-destructuring)
 - [React](https://github.com/atapas/youtube/tree/main/react)
 
+# ❓ Quizzes and Project Building Tasks
+- [React Quizzes and App Building](https://github.com/atapas/youtube/blob/main/react/Quizzes.md)
+
 You can support my work by giving the repository a ⭐ and/or sponsorong me using the `Sponsor` button at the top 😍.
 
 [![Stargazers repo roster for @atapas/youtube](https://reporoster.com/stars/atapas/youtube)](https://github.com/atapas/youtube/stargazers)  
