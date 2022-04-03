@@ -1,0 +1,28 @@
+li {
+  list-style: none;
+}
+
+.movie-container > ul {
+  display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-container UL > li {
+  display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.movie-container UL > li > img {
+  width: 200px;
+  height: 200px;
+}
