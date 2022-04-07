@@ -66,3 +66,18 @@ What if you can not complete the tasks? 😟
 The intention here is to do hands-on based on everything we have learned, and let's learn it even very well.
   </p>
  </details>
+
+### 3. R_QUIZ_03
+<details>
+<summary>Which of these statements are "true" ❓</summary>
+<p>
+  
+  - A) Higher-Order Components(HOC) can be used to improve reusability.
+  - B) Updating a reference in React(useRef) re-renders the component.
+  - C) With the useState hook, the state gets created at the first render.
+  - D) Updating state with useState is asynchronous, but updating reference with useRef is synchronous.
+  - E) We can have only one useEffect per component.
+  
+   You will get an 🍦 for explaining the answers 😀. Feel free to go over the past videos from the React series if you are unsure of the answers. Keep learning!
+  </p>
+  </details>
