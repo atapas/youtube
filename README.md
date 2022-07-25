@@ -22,8 +22,9 @@ The purpose of this repository is to post all the source code used in my YouTube
 
 You can support my work by giving the repository a ⭐ and/or sponsorong me using the `Sponsor` button at the top 😍.
 
-[![Stargazers repo roster for @atapas/youtube](https://reporoster.com/stars/atapas/youtube)](https://github.com/atapas/youtube/stargazers)  
-  
+<a href="https://github.com/atapas/youtube/stargazers">
+  <img src="https://git-lister.onrender.com/api/stars/atapas/youtube?limit=25" alt="Stargazers repo roster for @atapas/youtube" />
+</a>  
  
 # 👋 Contribute
 Let's grow together with knowldge. You can request a new video tutorial in the areas of,
