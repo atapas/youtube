@@ -1,0 +1,44 @@
+.canvas {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.colors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0.5rem;
+  background: #ececec;
+  padding: 1rem;
+  border-radius: 10px;
+  height: 400px;
+  width: 300px;
+}
+
+.font {
+  margin: 0.5rem;
+  padding: 1rem;
+  background: #ececec;
+  border-radius: 10px;
+  height: 400px;
+  width: 300px;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-left: 5px;
+  cursor: pointer;
+}
