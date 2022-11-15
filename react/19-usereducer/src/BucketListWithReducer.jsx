@@ -1,6 +1,6 @@
-import { useState, useReducer } from "react";
+import { useReducer } from "react";
 import {TiTick, TiTrash} from 'react-icons/ti';
-import { blReducer } from "./BucketListReducers";
+import { blReducer, formReducer } from "./BucketListReducers";
 
 const Header = () => {
   return (
@@ -15,17 +15,18 @@ const Header = () => {
 
 const BucketListWithReducer = () => {
   const[state, dispatch] = useReducer(blReducer, []);
-
-  const [wish, setWish] = useState({
+  const [wish, dispatchFormAction] = useReducer(formReducer, {
       title: "",
       by: ""
   });
   
   const handleWish = (e) => {
     e.preventDefault();
-    const key = e.target.name;
-    const value = e.target.value;
-    setWish({...wish, [key]: value});
+    dispatchFormAction({
+      type: "INPUT_TEXT",
+      field: e.target.name,
+      payload: e.target.value
+    })
   }
 
   return (

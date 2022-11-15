@@ -24,4 +24,21 @@ const blReducer = (state, action) => {
   }
 };
 
-export {blReducer};
+const formReducer = (state, action) => {
+  switch(action.type) {
+    case "INPUT_TEXT":
+      return {
+        ...state,
+        [action.field]: action.payload
+      };
+    case "INPUT_TOGGLE":
+      return  {
+        ...state,
+        [action.payload]: !action.payload
+      };
+    default:
+      return state;  
+  }
+};
+
+export {blReducer, formReducer};
