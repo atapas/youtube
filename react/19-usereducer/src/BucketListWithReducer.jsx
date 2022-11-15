@@ -17,14 +17,13 @@ const reducer = (state, action) => {
   switch (action.type) {
     case "ADD_WISH":
       {
-        console.log(action.payload);
         const newWish = {...action.payload, "id": uuid(), "isDone": false};
-        console.log(newWish);
         return [...state, newWish];
       }
     case "REMOVE_WISH":
       {
-
+        const wishRemained = state.filter((wish) => wish.id !== action.payload);
+        return [...wishRemained]
       }
     case "DONE_WISH":
       {
@@ -57,11 +56,6 @@ const BucketListWithReducer = () => {
     doneWish[index].isDone = true;
   }
 
-  const deleteWish = (id) => {
-    console.log(`Wish with ${id} to remove!`)
-    const filteredWishes = state.filter((wish) => wish.id !== id);
-  }
-
   return (
     <>
       <Header />
@@ -72,7 +66,7 @@ const BucketListWithReducer = () => {
               <span style={{ textDecoration: item.isDone ? "line-through" : "" }}>
                 <strong>{item.title}</strong> is due by {item.by}</span>
               <span><TiTick size={24} onClick={(id) => markDone(item.id)} /></span>
-              <span><TiTrash size={24} onClick={(id) => deleteWish(item.id)}/></span>
+              <span><TiTrash size={24} onClick={(id) => dispatch({type: "REMOVE_WISH", payload: item.id})}/></span>
             </li>
           ))}
         </ul>
