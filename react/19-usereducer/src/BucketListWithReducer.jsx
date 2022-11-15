@@ -27,7 +27,10 @@ const reducer = (state, action) => {
       }
     case "DONE_WISH":
       {
-
+        const index = state.findIndex((wish) => wish.id === action.payload);
+        const doneWish = [...state];
+        doneWish[index].isDone = true;
+        return [...doneWish];
       }
     default:
       return state;    
@@ -40,20 +43,13 @@ const BucketListWithReducer = () => {
   const [wish, setWish] = useState({
       title: "",
       by: ""
-    });
+  });
   
   const handleWish = (e) => {
     e.preventDefault();
     const key = e.target.name;
     const value = e.target.value;
     setWish({...wish, [key]: value});
-  }
-
-  const markDone = (id) => {
-    console.log(`Wish with ${id} is done!`);
-    const index = state.findIndex((wish) => wish.id === id);
-    const doneWish = [...state];
-    doneWish[index].isDone = true;
   }
 
   return (
@@ -65,7 +61,7 @@ const BucketListWithReducer = () => {
             <li key={item.id}>
               <span style={{ textDecoration: item.isDone ? "line-through" : "" }}>
                 <strong>{item.title}</strong> is due by {item.by}</span>
-              <span><TiTick size={24} onClick={(id) => markDone(item.id)} /></span>
+              <span><TiTick size={24} onClick={(id) => dispatch({type: "DONE_WISH", payload: item.id})} /></span>
               <span><TiTrash size={24} onClick={(id) => dispatch({type: "REMOVE_WISH", payload: item.id})}/></span>
             </li>
           ))}
