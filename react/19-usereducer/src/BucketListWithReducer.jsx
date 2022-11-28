@@ -46,7 +46,7 @@ const BucketListWithReducer = () => {
         <div>
           I want to do <input type="text" name="title" onChange={handleWish}/> by{" "}
           <input type="date" name="by" onChange={handleWish} />
-          <button onClick={() => dispatch({type: "ADD_WISH", payload: wish})}>Make a Wish!</button>
+          <button className="wishBtn" onClick={() => dispatch({type: "ADD_WISH", payload: wish})}>Make a Wish!</button>
         </div>
       </div>
     </>

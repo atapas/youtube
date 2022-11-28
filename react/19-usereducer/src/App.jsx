@@ -1,11 +1,10 @@
 import { useState } from 'react'
 import './App.css'
 
-import BucketListWithReducer from './BucketListWithReducer';
+import BucketListWithReducer from './BucketListWithReducer'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+ 
   return (
     <div className="App">
       <BucketListWithReducer />

@@ -66,7 +66,7 @@ const BucketList = () => {
         <div>
           I want to do <input type="text" name="title" onChange={handleWish}/> by{" "}
           <input type="date" name="by" onChange={handleWish} />
-          <button onClick={addWish}>Make a Wish!</button>
+          <button className="wishBtn" onClick={addWish}>Make a Wish!</button>
         </div>
       </div>
     </>
