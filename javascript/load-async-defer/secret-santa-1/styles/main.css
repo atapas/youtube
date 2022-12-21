@@ -17,3 +17,9 @@
   font-size: 20px;
   cursor: pointer;
 }
+
+footer{
+  margin: 15px;
+  font-size: 15px;
+  color: gray;
+}
