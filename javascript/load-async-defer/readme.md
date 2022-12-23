@@ -9,7 +9,7 @@ The project files:
 
 ## Learn with an Interactive Video Tutorial
 
-TBA
+https://www.youtube.com/watch?v=4sBfx3ISBdM&t=551s
 
 ## Script Loading with Infographics
 
