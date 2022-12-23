@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.gift IMG {
+  border-radius: 50%;
+  border: 1px solid #ececec;
+}
+
+.play-btn {
+  width: 100%;
+  height: 30px;
+  background: #fffa00;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+footer{
+  margin: 15px;
+  font-size: 15px;
+  color: gray;
+}
