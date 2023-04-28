@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container input[type='text'] {
+  margin: 10px;
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ebebeb;
+  padding: 5px;
+  align-items: center;
+}
