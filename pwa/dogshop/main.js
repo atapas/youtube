@@ -13,7 +13,7 @@ const createColorPallet = () => {
     colorPallet.addEventListener('click', () => {
       const colorCode = color.data
       console.log(colorCode)
-      copyContent(colorCode);
+      copyContent(colorCode)
     })
     document.querySelector('#app').appendChild(colorPallet)
   })
