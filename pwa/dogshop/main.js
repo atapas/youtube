@@ -1,24 +1,34 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+import {colors} from './colors'
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
+const createColorPallet = () => {
+  colors.forEach((color) => {
+    const colorPallet = document.createElement('div')
+    colorPallet.classList.add('color-pallet')
+    colorPallet.style.backgroundColor = color.data
+    const colorName = document.createElement('div')
+    colorName.classList.add('color-name')
+    colorName.textContent = color.data
+    colorPallet.appendChild(colorName)
+    colorPallet.addEventListener('click', () => {
+      const colorCode = color.data
+      console.log(colorCode)
+      copyContent(colorCode);
+    })
+    document.querySelector('#app').appendChild(colorPallet)
+  })
+}
 
-setupCounter(document.querySelector('#counter'))
+const copyContent = async (text) => {
+  try {
+    await navigator.clipboard.writeText(text);
+    console.log('Content copied to clipboard');
+  } catch (err) {
+    console.error('Failed to copy: ', err);
+  }
+}
+
+createColorPallet()
+
+
+
