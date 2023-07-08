@@ -4,12 +4,20 @@ import './App.css';
 export default function App({ users }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [filtered, setFiltered] = useState(users);
+
+  // A Standard Hook to mark things non-urgent
   const [isPending, startTransition] = useTransition();
 
   const handleChange = ({ target: { value } }) => {
+    // Set the search term on the textbox
     setSearchTerm(value);
+
+    // Execute Non-Urgent Code
     startTransition(() => {
-      setFiltered(users.filter((item) => item.name.includes(value)));
+      // Filter the user list based on the search term
+      setFiltered(users.filter(
+        (item) => item.name.includes(value)
+      ));
     });
   };
 
