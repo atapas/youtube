@@ -1,5 +1,7 @@
 
 import {useState, useEffect} from 'react';
+import CountryList from './CountryList';
+import Time from './Time';
 
 async function fetchCountries() {
   const response = await fetch('https://restcountries.com/v3.1/all');
@@ -7,15 +9,26 @@ async function fetchCountries() {
   return countries;
 }
 
+async function fetchTime() {
+  const response = await fetch('http://worldtimeapi.org/api/timezone/Asia/Kolkata');
+  const time = await response.json();
+  return time;
+}
+
 const Countries = () => {
   const [data, setData] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
+  const [time, setTime] = useState();
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     async function fetchData() {
       setIsLoading(true);
       const countries = await fetchCountries();
+      const time = await fetchTime();
+      // const resolvedPromises =  await Promise.allSettled([countries, time]);
+      // console.log(resolvedPromises);
       setData(countries);
+      setTime(time);
       setIsLoading(false);
     }
     fetchData();
@@ -23,19 +36,17 @@ const Countries = () => {
 
   if (isLoading){
     return(
-      <div>Loading Countries...</div>
+      <div>Loading Countries and Time...</div>
     )
   }
 
   return(
-    <ul>
-      <h2>Countries - Without Suspense</h2>
-      {
-        data.map(({name})=> (
-          <li key={name.common}>{name.common}</li>
-        ))
-      }
-    </ul>
+    <>
+      <h2>All Countries with the Current Time</h2>
+      <Time data={time} />
+      <CountryList data={data} />
+    </>
+    
   )
 }
 
