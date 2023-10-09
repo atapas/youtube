@@ -29,6 +29,7 @@ const Countries = () => {
 
   return(
     <ul>
+      <h2>Countries - Without Suspense</h2>
       {
         data.map(({name})=> (
           <li key={name.common}>{name.common}</li>
