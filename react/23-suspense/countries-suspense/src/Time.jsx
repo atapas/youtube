@@ -8,7 +8,7 @@ const Time = () => {
 
   return(
     <p>
-      {time.datetime}
+      Time is: {time.datetime}
     </p>
   )
 }

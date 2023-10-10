@@ -8,6 +8,7 @@ import Time from "./Time";
 const Countries = () => {
   return (
     <>
+      <h2>Countries with Time - Suspense & Error Boundaries</h2>
       <ErrorBoundary
           fallback={
             <p className="text-red-600 text-2xl font-bold">

@@ -1,6 +1,6 @@
 const Time = ({data}) => {
   return (
-    <p>{data.datetime}</p>
+    <p>Time is: {data.datetime}</p>
   )
 }
 

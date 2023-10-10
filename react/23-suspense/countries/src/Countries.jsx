@@ -15,6 +15,15 @@ async function fetchTime() {
   return time;
 }
 
+async function fetchAllData() {
+  const countries = await fetchCountries();
+  const time = await fetchTime();
+  const promises =  await Promise.allSettled([countries, time]);
+  return promises;
+}
+
+const dataPromises = fetchAllData();
+
 const Countries = () => {
   const [data, setData] = useState([]);
   const [time, setTime] = useState();
@@ -23,12 +32,11 @@ const Countries = () => {
   useEffect(() => {
     async function fetchData() {
       setIsLoading(true);
-      const countries = await fetchCountries();
-      const time = await fetchTime();
-      // const resolvedPromises =  await Promise.allSettled([countries, time]);
-      // console.log(resolvedPromises);
-      setData(countries);
-      setTime(time);
+
+      const data = await fetchAllData();
+      setData(data[0].value);
+      setTime(data[1].value);
+      
       setIsLoading(false);
     }
     fetchData();
@@ -42,7 +50,7 @@ const Countries = () => {
 
   return(
     <>
-      <h2>All Countries with the Current Time</h2>
+      <h2>All Countries with the Current Time - Date Fetched and then Rendered</h2>
       <Time data={time} />
       <CountryList data={data} />
     </>
