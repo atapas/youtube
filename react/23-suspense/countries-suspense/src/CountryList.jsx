@@ -1,10 +1,15 @@
-const CountryList = ({data}) => {
+import fetchData from "../api/fetchData";
+
+const resource = fetchData('https://restcountries.com/v3.1/all');
+
+const CountryList = () => {
+
+  const countries = resource.read();
 
   return(
     <ul>
-      <h2>Countries - With Suspense</h2>
       {
-        data.map(({name})=> (
+        countries.map(({name})=> (
           <li key={name.common}>{name.common}</li>
         ))
       }

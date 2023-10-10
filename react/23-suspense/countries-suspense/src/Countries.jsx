@@ -1,17 +1,18 @@
 
 import { Suspense } from "react";
 import CountryList from "./CountryList";
-
-async function fetchCountries() {
-  const response = await fetch('https://restcountries.com/v3.1/all');
-  const countries = await response.json();
-  return countries;
-}
+import Time from "./Time";
 
 const Countries = () => {
-  const countries = fetchCountries();
   return (
-    <div>Hi</div>
+    <>
+      <Suspense fallback={<p>Loading time...</p>}>
+        <Time />
+      </Suspense>
+      <Suspense fallback={<p>Loading countries...</p>}>
+        <CountryList />
+      </Suspense>
+    </>
   )
 }
 
