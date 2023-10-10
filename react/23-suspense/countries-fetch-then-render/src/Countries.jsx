@@ -33,7 +33,12 @@ const Countries = () => {
     async function fetchData() {
       setIsLoading(true);
 
-      const data = await fetchAllData();
+      const data = await dataPromises;
+      
+      /*dataPromises.then((data) => {
+        console.log(data);
+      });*/
+      
       setData(data[0].value);
       setTime(data[1].value);
       
