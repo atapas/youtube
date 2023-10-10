@@ -1,5 +1,5 @@
 {
-  "name": "countries",
+  "name": "countries-fetch-then-render",
   "private": true,
   "version": "0.0.0",
   "type": "module",
