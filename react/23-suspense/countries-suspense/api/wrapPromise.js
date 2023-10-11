@@ -1,3 +1,4 @@
+
 function wrapPromise(promise) {
   let status = 'pending'
   let response
