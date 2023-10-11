@@ -18,11 +18,11 @@ async function fetchTime() {
 async function fetchAllData() {
   const countries = await fetchCountries();
   const time = await fetchTime();
-  const promises =  await Promise.allSettled([countries, time]);
-  return promises;
+  const data =  [countries, time];
+  return data;
 }
 
-const dataPromises = fetchAllData();
+const allData = fetchAllData();
 
 const Countries = () => {
   const [data, setData] = useState([]);
@@ -33,14 +33,10 @@ const Countries = () => {
     async function fetchData() {
       setIsLoading(true);
 
-      const data = await dataPromises;
+      const data = await allData;
       
-      /*dataPromises.then((data) => {
-        console.log(data);
-      });*/
-      
-      setData(data[0].value);
-      setTime(data[1].value);
+      setData(data[0]);
+      setTime(data[1]);
       
       setIsLoading(false);
     }

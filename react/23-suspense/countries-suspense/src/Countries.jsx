@@ -9,16 +9,17 @@ const Countries = () => {
   return (
     <>
       <h2>Countries with Time - Suspense & Error Boundaries</h2>
-      <ErrorBoundary
+      
+        <Suspense fallback={<p>Loading time...</p>}>
+          <Time />
+        </Suspense>
+        <ErrorBoundary
           fallback={
-            <p className="text-red-600 text-2xl font-bold">
-              Something went wrong...
+            <p>
+              Something went wrong in fetching countries...
             </p>
           }
         >
-          <Suspense fallback={<p>Loading time...</p>}>
-            <Time />
-          </Suspense>
           <Suspense fallback={<p>Loading countries...</p>}>
             <CountryList />
           </Suspense>

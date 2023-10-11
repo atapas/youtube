@@ -1,6 +1,6 @@
 import fetchData from "../api/fetchData";
 
-const resource = fetchData('https://restcountries.com/v3.1/all');
+const resource = fetchData('https://restcountries.com/v3.1/al');
 
 const CountryList = () => {
 
