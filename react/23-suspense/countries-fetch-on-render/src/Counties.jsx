@@ -3,10 +3,6 @@ import {useState, useEffect} from 'react';
 import CountryList from './CountryList';
 
 
-async function fetchCountries() {
-}
-
-
 const Countries = () => {
   const [data, setData] = useState([]);
   const [time, setTime] = useState();
