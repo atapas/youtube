@@ -31,7 +31,7 @@ const books = [
     ISBN:	'1-86092-049-7'
   },
   {
-    id: 'e0cdfaa6-deee-4dd9-bfe6-cbcfeceffa8a',
+    id: 'e0cdfaa6-deee-4dd8-bfe6-cbcfeceffa8a',
     title: 'Murder!',
     description: "Stories in the Travelman Short Stories series take the reader to places of mystery, fantasy, horror, romance, and corners of the universe yet unexplored.",
     author: 'Arnold Bennett',
