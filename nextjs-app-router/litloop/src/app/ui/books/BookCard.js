@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-
+import AddToCart from "./AddtoCart";
 import { CurrencyRupeeIcon, ArchiveBoxIcon, ArchiveBoxXMarkIcon } from "@heroicons/react/24/solid";
 
 const BookCard = ({book}) => {
@@ -44,6 +44,7 @@ const BookCard = ({book}) => {
               `Currently this book is rented by ${book?.renterIds?.length} customer` : 
               `Currently no one has rented this book`}</p>
           </div>
+          <AddToCart book={book} />
         </div>
       </div>
     </Link>
