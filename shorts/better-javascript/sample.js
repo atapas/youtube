@@ -64,3 +64,16 @@ console.log(month);
 
 
 
+
+function getTime() {
+  let hour = padByZero(new Date().getHours());
+  let min = padByZero(new Date().getMinutes());
+  let sec = padByZero(new Date().getSeconds());
+  
+  return `${hour}:${min}:${sec}`
+}
+
+function padByZero(input) {
+  return input.toString().padStart(2, '0');
+}
+
