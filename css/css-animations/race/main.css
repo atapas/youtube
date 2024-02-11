@@ -1,0 +1,50 @@
+.box {
+  width: 200px;
+  height: 100px;
+  color: #000000;
+  background-color: orange;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 4px;
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+}
+
+.anime{
+  animation: move 10s infinite;;
+}
+
+.linear {
+  animation-timing-function: linear;
+}
+.ease {
+  animation-timing-function: ease;
+}
+.easeIn {
+  animation-timing-function: ease-in;
+}
+.easeOut {
+  animation-timing-function: ease-out;
+}
+.easeInOut {
+  animation-timing-function: ease-in-out;
+}
+
+.custom {
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes move {
+  0%{
+    background-color: orange;
+    left: 0px;
+    top:0px;
+  }
+  100%{
+    background-color: green;
+    left: 300px;
+    top:0px;
+  }
+}
+

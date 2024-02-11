@@ -1,0 +1,24 @@
+
+.image-box {
+  width: 500px;
+  height: 600px;
+  background-image: url('https://res.cloudinary.com/atapas/image/upload/v1690800743/talks/devconf-bd-march-23/Screenshot_2023-07-31_at_4.22.06_PM_noaval.png');
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.anime {
+  animation: move 15s ease-in;
+}
+
+@keyframes move {
+  0%{
+    background-position: left;
+  }
+	100% {
+	  background-position: right;
+	}
+}
+
+
+

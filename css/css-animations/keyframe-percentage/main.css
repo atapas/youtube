@@ -1,0 +1,23 @@
+.box{
+  width: 600px;
+  height: 600px;
+  background-color: orange;
+  padding: 10px;
+  border: 1px slid gray;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.anime {
+  animation-name: percentage;
+  animation-duration: 5s;
+}
+
+@keyframes percentage {
+  0%{background-color: orange}
+  25%{background-color: green; color: white;}
+  50%{background-color: gray; color: black;}
+  75%{background-color: pink; color: black;}
+  100%{background-color: red; color: white;}
+}

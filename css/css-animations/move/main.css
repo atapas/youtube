@@ -1,0 +1,43 @@
+.box {
+  width: 400px;
+  height: 400px;
+  color: #000000;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  position: relative;
+  text-align: center;
+  font-size: 60px;
+}
+
+/*.anime {
+  animation-name: move;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}*/
+
+/*.element {
+  animation: animation-name 
+            animation-duration 
+            animation-timing-function 
+            animation-delay 
+            animation-direction 
+            animation-iteration-count 
+            animation-fill-mode
+            animation-play-state;
+}*/
+
+.anime{
+  animation: move 5s 2s alternate infinite;
+}
+
+@keyframes move {
+  0%{background-color: "orange"; left: 0px; top:0px; }
+  25%{background-color: "green"; left: 200px; top:0px;}
+  50%{background-color: "red"; left: 200px; top:200px;}
+  75%{background-color: "white"; left: 0px; top:200px;}
+  100%{background-color: "pink"; left: 0px; top:0px;}
+}

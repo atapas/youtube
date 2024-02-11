@@ -1,0 +1,29 @@
+.box {
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 60px;
+  border: 1px solid gray;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+
+.anime {
+  animation: slidein 3s 6 alternate;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+

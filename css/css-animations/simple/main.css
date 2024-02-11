@@ -1,0 +1,19 @@
+.box {
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 60px;
+  border: 1px solid gray;
+}
+
+.anime{
+  animation-name: simple;
+  animation-duration: 5s;
+}
+
+@keyframes simple {
+  from{background-color: orange; color:black}
+  to{background-color: green; color: white;}
+}
