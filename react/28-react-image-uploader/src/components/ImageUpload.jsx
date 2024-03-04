@@ -23,7 +23,7 @@ const ImageUpload = () => {
       formData.append("file", uploadedFile);
       
       // const cachedURL = URL.createObjectURL(uploadedFile);
-      // setAvatarURL(cachedURL);\
+      // setAvatarURL(cachedURL);
 
       const response = await fetch("https://api.escuelajs.co/api/v1/files/upload", {
         method: "post",
