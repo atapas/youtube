@@ -31,6 +31,10 @@ const inventoryReducer = (state, action) => {
         error: action.error,
       }
     }
+    
+    default: {
+      return state;
+    } 
   }
 
 }
