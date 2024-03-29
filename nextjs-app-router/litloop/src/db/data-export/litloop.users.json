@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "660403f7ffc0f4bc050e7fb9"
+  },
+  "name": "Maria Com Com",
+  "email": "mcomcom@hitmail.com",
+  "image_url": "https://res.cloudinary.com/atapas/image/upload/v1711539480/litloop/users/maria-com-com_gvjjwv.jpg"
+},
+{
+  "_id": {
+    "$oid": "66040596ffc0f4bc050e7fba"
+  },
+  "name": "José da Silva",
+  "email": "josedasilva@gmail.com",
+  "image_url": "https://res.cloudinary.com/atapas/image/upload/v1711539480/litloop/users/joao-da-silva_js2jpw.jpg"
+}]
