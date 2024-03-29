@@ -1,9 +1,10 @@
 
-import { getBookById } from "@/app/lib/fake-data";
+import { getBookById } from "@/db/queries";
 import BookDetails from "@/app/ui/books/BookDetails";
 
-const BookDetailsPage = ({params: {id}}) => {
-  const book = getBookById(id);
+const BookDetailsPage = async ({params: {id}}) => {
+  const book = await getBookById(id);
+  console.log(book);
   return(
     <BookDetails book={book} />
   )
